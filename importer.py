@@ -15,10 +15,3 @@ class Importer:
         except requests.exceptions.RequestException as e:
             print(f"An error occurred: {e}")
             return None
-
-# Create an instance of Importer
-importer = Importer()
-
-# Call the get_rounds method
-rounds_data = importer.get_rounds()
-print(rounds_data)
